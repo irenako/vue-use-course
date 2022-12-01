@@ -19,9 +19,12 @@ import useFetch from './components/useFetch.vue'
 import vueuseUtilities from './components/vueuseUtilities.vue'
 import computedAsync from './components/computedAsync.vue'
 import imageCarousel from './components/imageCarousel.vue'
+import DomElements from './components/DomElements.vue'
+import vueComponents from './components/vueComponents.vue'
+import useAlertFavicon from './components/useAlertFavicon.vue'
 export default {
   components: {
-    Title, Clipboard, Dark, onKeyStroke, MagicKeys, deviceSensors, mouseAndTouch, useScroll, useMedia, useInterval, animatedSprite, timeOut, animatingTime, useTransition, RefHistory, persistentStorage, useFetch, vueuseUtilities, computedAsync, imageCarousel
+    Title, Clipboard, Dark, onKeyStroke, MagicKeys, deviceSensors, mouseAndTouch, useScroll, useMedia, useInterval, animatedSprite, timeOut, animatingTime, useTransition, RefHistory, persistentStorage, useFetch, vueuseUtilities, computedAsync, imageCarousel, DomElements, vueComponents, useAlertFavicon
 }
 }
 </script>
@@ -68,4 +71,10 @@ export default {
 <computedAsync/>
 <br />
 <imageCarousel/>
+<br/>
+<DomElements/>
+<br/>
+<vueComponents/>
+<br/>
+<useAlertFavicon/>
 </template>
