@@ -17,9 +17,11 @@ import RefHistory from './components/RefHistory.vue'
 import persistentStorage from './components/persistentStorage.vue'
 import useFetch from './components/useFetch.vue'
 import vueuseUtilities from './components/vueuseUtilities.vue'
+import computedAsync from './components/computedAsync.vue'
+import imageCarousel from './components/imageCarousel.vue'
 export default {
   components: {
-    Title, Clipboard, Dark, onKeyStroke, MagicKeys, deviceSensors, mouseAndTouch, useScroll, useMedia, useInterval, animatedSprite, timeOut, animatingTime, useTransition, RefHistory, persistentStorage, useFetch, vueuseUtilities
+    Title, Clipboard, Dark, onKeyStroke, MagicKeys, deviceSensors, mouseAndTouch, useScroll, useMedia, useInterval, animatedSprite, timeOut, animatingTime, useTransition, RefHistory, persistentStorage, useFetch, vueuseUtilities, computedAsync, imageCarousel
 }
 }
 </script>
@@ -62,4 +64,8 @@ export default {
 <useFetch />
 <br />
 <vueuseUtilities />
+<br />
+<computedAsync/>
+<br />
+<imageCarousel/>
 </template>
